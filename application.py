@@ -12,7 +12,8 @@ st.title('Short print confidence calculator')
 st.write('''
 	When initial data comes about about print ratios in a set and we see 
 	the most sought-after cards appear much less frequently than they should, we frequently wonder if this is a coincidence 
-	or if the card is genuinely under-printed. How can we better quantize our uncertainty? We provide three approaches here.
+	or if the card is genuinely under-printed. How can we better quantize our uncertainty? We provide three approaches here. The technical details for the user 
+ 	with a statistical background may be found [here](https://github.com/flipflipshift/shortprint-calculator/blob/main/ShortprintMath.pdf)
 	''')
 
 st.title('Option 1')
