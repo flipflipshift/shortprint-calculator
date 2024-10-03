@@ -237,7 +237,7 @@ prior = st.number_input("Input likelihood of no short-prints:", value=50, min_va
 
 st.write('''If there are short-prints, then there are infinitely many possibilities for the true frequencies that each card shows up. To keep the math simple, 
 	we will treat these all equally likely (in techinical terms, our prior will be a weighted average of a degenerate distribution and a uniform distribution over the hypothesis 
-	space of possible frequencies). The mathematics of how we update this prior belief is rooted in Bayes' theorem.''')
+	space of possible frequencies). The mathematics of how we update this prior belief is rooted in Bayes' theorem, with details [here](https://github.com/flipflipshift/shortprint-calculator/blob/main/ShortprintMath.pdf)''')
 
 st.write('''Click the button to compute the 95\% credible upper bounds on the frequency ratios of each card and obtain a posterior probability of no short prints. Unlike the confidence upper bounds, you can really interpret the 95\% upper confidence bound 
 	as the value which you are 95\% sure the true frequency is less than. As before, you can adjust the 95\% to any percentage you 
